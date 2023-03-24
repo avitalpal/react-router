@@ -2,17 +2,23 @@ import './App.css';
 import { Route, Routes, Link } from "react-router-dom";
 import React from 'react';
 import { useState } from 'react';
+
 import NoAccess from './Nested/NoAccess';
 import Protected from './Authentication/Protected';
 import LoginPage from './LoginPage';
 import HomePage from './HomePage';
+
 import LinkPage from './LinkPage';
+
 import ScratchPage from './ScratchPage';
+
 import BasicPage from './BasicPage';
+
 import NestedPage from './NestedPage';
 import Link1 from './Nested/Link1';
 import Link2 from './Nested/Link2';
 import Link3 from './Nested/Link3';
+
 import ProtPage from './ProtPage';
 import Safeguard from './Authentication/Safeguard';
 import ProtLink from './Nested/ProtLink';
